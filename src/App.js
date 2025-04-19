@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from "./Components/Layout.js";
+import Home from "./Components/Pages/Home.js";
+import NotFound from "./Components/Pages/NotFound.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Layout pages */}
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+           <Route path="home" element={<Home />} />
+  <Route path="Home" element={<Home />} />
+          {/* You can add other pages here like About, Skills etc */}
+        </Route>
+
+        {/* 404 page OUTSIDE the Layout */}
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
