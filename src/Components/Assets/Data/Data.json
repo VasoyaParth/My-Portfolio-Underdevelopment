@@ -1,0 +1,154 @@
+[
+    {
+      "id": "stocknova",
+      "title": "StockNova",
+      "subtitle": "Inventory Management System with Smart Tracking & Real-Time Reports",
+      "cover": "/images/StockNovaInventory/Cover.png",
+      "description": "StockNova is a modern inventory management system built using ASP.NET Core and SQL. It helps businesses easily manage products, track customers and dealers, and generate clear sales and stock reports. With smart features like stock alerts and clean dashboards, users can make better decisions and stay on top of inventory without hassle.",
+      "tech": [
+        "ASP.NET Core",
+        "SQL",
+        "Custom Frontend",
+        "Chart.js",
+        "Smart Stock Tracking",
+        "Real-Time Reports",
+        "Notifications"
+      ],
+      "features": [
+        "Smart stock level monitoring",
+        "Sales and stock reports with charts",
+        "Live inventory tracking",
+        "Stock alerts and notifications",
+        "Easy-to-use dashboards",
+        "Add/edit/view/delete product features"
+      ],
+      "gallery": [
+        "/images/StockNovaInventory/stock1.png",
+        "/images/StockNovaInventory/stock2.png",
+        "/images/StockNovaInventory/stock3.png",
+        "/images/StockNovaInventory/stock4.png",
+        "/images/StockNovaInventory/stock5.png",
+        "/images/StockNovaInventory/stock6.png",
+        "/images/StockNovaInventory/stock7.png",
+        "/images/StockNovaInventory/stock8.png",
+        "/images/StockNovaInventory/stock9.png",
+        "/images/StockNovaInventory/stock10.png",
+        "/images/StockNovaInventory/stock12.png",
+        "/images/StockNovaInventory/stock13.png"
+      ]
+    },
+    {
+      "id": "farmer-direct",
+      "title": "Farmer Direct Market",
+      "subtitle": "A Marketplace That Directly Connects Farmers & Buyers",
+      "cover": "/images/FarmerDirectMarket/Cover.jpg",
+      "description": "Farmer Direct is a mobile marketplace that helps farmers sell their products directly to customers without middlemen. Built using Flutter and Node.js, the app offers live product listings, secure payments through digital wallets, and clean order tracking. With support for secure login and push notifications, it's simple and easy for farmers and buyers to use anytime, anywhere.",
+      "tech": [
+        "Flutter",
+        "Node.js",
+        "MongoDB",
+        "JWT Auth"
+      ],
+      "features": [
+        "Secure transactions with Blockchain",
+        "Live product listings and updates",
+        "Direct chat and deal with buyers",
+        "Payment system with digital wallets",
+        "Order tracking with push alerts",
+        "Works on Android & iOS"
+      ],
+      "gallery": [
+        "/images/FarmerDirectMarket/Buyer1.jpg",
+        "/images/FarmerDirectMarket/Buyer2.jpg",
+        "/images/FarmerDirectMarket/Buyer3.jpg",
+        "/images/FarmerDirectMarket/Buyer4.jpg",
+        "/images/FarmerDirectMarket/Buyer5.jpg",
+        "/images/FarmerDirectMarket/Buyer6.jpg",
+        "/images/FarmerDirectMarket/Buyer7.jpg",
+        "/images/FarmerDirectMarket/Buyer8.jpg",
+        "/images/FarmerDirectMarket/Buyer9.jpg",
+        "/images/FarmerDirectMarket/Buyer10.jpg",
+        "/images/FarmerDirectMarket/Buyer11.jpg",
+        "/images/FarmerDirectMarket/Buyer12.jpg",
+        "/images/FarmerDirectMarket/Buyer13.jpg"
+      ]
+    },
+    {
+      "id": "food-recipes",
+      "title": "Food Recipes App",
+      "subtitle": "Discover & Share Recipes for Every Taste",
+      "cover": "/images/DishDelight/Cover.jpg",
+      "description": "Food Recipes App is a cooking guide that helps users find and share recipes from different cuisines. Built using Flutter and Express.js, it lets you search for meals based on ingredients, read step-by-step instructions, check nutrition info, and even upload your own recipes. The app also includes user ratings and tips to help improve your cooking skills.",
+      "tech": [
+        "Flutter",
+        "MongoDB",
+        "Express.js",
+        "REST API",
+        "Smart Search",
+        "Recipe Filtering"
+      ],
+      "features": [
+        "Search recipes by ingredients",
+        "Step-by-step instructions",
+        "Nutrition and ingredient info",
+        "Rate and review recipes",
+        "Save and upload your own meals",
+        "Suggestions based on season"
+      ],
+      "gallery": [
+        "/images/DishDelight/image1.jpg",
+        "/images/DishDelight/image2.jpg",
+        "/images/DishDelight/image3.jpg",
+        "/images/DishDelight/image4.jpg",
+        "/images/DishDelight/image5.jpg",
+        "/images/DishDelight/image6.jpg",
+        "/images/DishDelight/image7.jpg",
+        "/images/DishDelight/image8.jpg"
+
+    ]
+    },
+    {
+      "id": "gamestreet",
+      "title": "GameStreet.com",
+      "subtitle": "All-in-One Gaming Hub with News, Reviews & More",
+      "cover": "/images/GameStreet.com/Cover.png",
+      "description": "GameStreet.com is a website made for gamers to stay updated with the latest news, game reviews, and upcoming releases. Built using React and Node.js, it features secure user login, separate dashboards for admins and users, and responsive design for both mobile and desktop. It's a cool platform for sharing opinions, reading updates, and exploring the gaming world.",
+      "tech": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT Authentication",
+        "REST APIs",
+        "Responsive Layout"
+      ],
+      "features": [
+        "Secure login system with JWT",
+        "User and admin dashboards",
+        "Live game news and updates",
+        "Review and comment system",
+        "API-powered content loading",
+        "Mobile-friendly interface"
+      ],
+      "gallery": [
+        "/images/GameStreet.com/gs1.png",
+        "/images/GameStreet.com/gs2.png",
+        "/images/GameStreet.com/gs3.png",
+        "/images/GameStreet.com/gs4.png",
+        "/images/GameStreet.com/gs5.png",
+        "/images/GameStreet.com/gs6.png",
+        "/images/GameStreet.com/gs7.png",
+        "/images/GameStreet.com/gs8.png",
+        "/images/GameStreet.com/gs9.png",
+        "/images/GameStreet.com/gs10.png",
+        "/images/GameStreet.com/gs11.png",
+        "/images/GameStreet.com/gs12.png",
+        "/images/GameStreet.com/gs13.png",
+        "/images/GameStreet.com/gs14.png",
+        "/images/GameStreet.com/gs15.png",
+        "/images/GameStreet.com/gs16.png"
+
+      ]
+    }
+  ]
+  

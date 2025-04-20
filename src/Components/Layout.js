@@ -8,7 +8,6 @@ function Layout() {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
 
-  // Check if current route is 404 (can be handled from route or specific flag later)
   const isNotFound = location.pathname === "/404" || location.pathname === "*" || location.state?.notFound;
 
   useEffect(() => {
@@ -16,14 +15,14 @@ function Layout() {
 
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 1000); // Fake delay for loading, customize as needed
+    }, 1000); 
 
     return () => clearTimeout(timer);
   }, [location.pathname]);
 
   return (
     <>
-      {/* Don't show navbar/footer if it's a NotFound route */}
+  
       {!isNotFound && <Navbar />}
 
       {loading ? (
