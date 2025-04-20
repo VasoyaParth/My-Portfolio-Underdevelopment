@@ -49,7 +49,7 @@ function Footer() {
               </a>
               <span>  |  </span>
               <a
-                href="#certificates"
+                href="/certificates"
                 className="hover:underline hover:text-blue-600 transition"
               >
                 Certificates
