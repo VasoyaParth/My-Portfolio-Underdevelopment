@@ -272,7 +272,7 @@ function Home() {
 
       <section
         id="contact"
-        className="h-screen w-full px-4 md:px-12 py-20 flex flex-col items-center justify-center"
+        className="h-screen w-full px-4 md:px-12 py-20 flex flex-col items-center justify-center mb-20"
       >
         <motion.div
           className="text-center mb-16"

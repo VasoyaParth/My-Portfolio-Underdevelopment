@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="w-full bg-white border-t border-gray-200 py-10 px-6 sm:px-12">
+    <footer className="w-full bg-white border-t border-gray-200 py-10 px-6sm:px-12">
       <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8 text-sm text-gray-600">
         {/* Left Column */}
         <div className="space-y-1 text-center sm:text-left">
