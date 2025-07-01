@@ -4,7 +4,7 @@ import Navbar from "./Navbar/Menubar.js";
 import Footer from "./Footer.js";
 import Loader from "./Loader/Loader.js"; // update path if needed
 import Modal from "./Pages/Modal.js"; // Import Modal
-
+import { Analytics } from "@vercel/analytics/react"
 function Layout() {
   const location = useLocation();
   const [loading, setLoading] = useState(true);
@@ -38,6 +38,7 @@ function Layout() {
 
   return (
     <>
+     <Analytics />
       {/* Only render Navbar if not on 404 page */}
       {!isNotFound && <Navbar />}
 

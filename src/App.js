@@ -13,6 +13,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
+         <Analytics />
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/home" element={<Home />} />
